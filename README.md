@@ -1,18 +1,73 @@
-# About
-Source files for the lusk.co website.
+# Lusk.co - Personal Webserver
 
-Built using [Hexo](https://hexo.io) ([repository](https://github.com/hexojs/hexojs.github.io)).
+[![CI](https://github.com/LUSKTECH/lusk.co/actions/workflows/ci.yml/badge.svg)](https://github.com/LUSKTECH/lusk.co/actions/workflows/ci.yml)
+[![Netlify Status](https://img.shields.io/badge/netlify-deploying-blue)](https://app.netlify.com/sites/lusk-co/deploys)
+[![License](https://img.shields.io/github/license/LUSKTECH/lusk.co)](LICENSE)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lusk.co&metric=alert_status)](https://sonarcloud.io/dashboard?id=lusk.co)
+[![Snyk Vulnerabilities](https://snyk.io/test/github/LUSKTECH/lusk.co/badge.svg)](https://snyk.io/test/github/LUSKTECH/lusk.co)
 
+**Lusk.co** is the personal portfolio and webserver for Cody Lusk, completely reimagined for 2025. It features a futuristic, reliable, and secure architecture built on the latest web technologies.
 
-## Hexo Credits
+## 🚀 Technology Stack
 
-- English - [tommy351](https://github.com/tommy351)
-- 正體中文 - [tommy351](https://github.com/tommy351)
-- 简体中文 - [pinggod](https://github.com/pinggod), [Xuanwo](https://github.com/Xuanwo)
-- Русский - [twirlfog](https://github.com/twirlfog)
-- 한국어 - [lazyrodi](https://github.com/lazyrodi)
-- Deutschland - [philippnagel](https://github.com/philippnagel)
+- **Core**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: Vanilla CSS (Futuristic Design System) with Glassmorphism & Glitch Effects
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Testing**: [Vitest](https://vitest.dev/) + React Testing Library
+- **CI/CD**: GitHub Actions + Netlify
+- **Quality**: ESLint (A11y + React configurations) + SonarQube + Snyk
 
-## License
+## ✨ Features
 
-[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+- **Blazing Fast**: Optimized build with Vite, targeting modern browsers.
+- **Accessible (A11y)**: Built with accessibility in mind, passing strict linting rules.
+- **Futuristic UI**: Dynamic animations, 3D perspective grids, and cyber-aesthetic visuals.
+- **Secure**: Automated dependency scanning and strict linting.
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/LUSKTECH/lusk.co.git
+   cd lusk.co
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run local development server**:
+   ```bash
+   npm run dev
+   ```
+
+## ✅ Testing & Quality
+
+To ensure system integrity, run the comprehensive test suite:
+
+```bash
+# Run tests
+npm run test
+
+# Run tests with coverage report (Compatible with SonarQube)
+npm run test:coverage
+
+# Linting and A11y checks
+npm run lint
+```
+
+## 📦 Build
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+The output will be generated in the `dist/` directory, ready for deployment.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
