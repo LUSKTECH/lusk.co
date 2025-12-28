@@ -1,10 +1,18 @@
 # Lusk.co - Personal Webserver
 
 [![CI](https://github.com/LUSKTECH/lusk.co/actions/workflows/ci.yml/badge.svg)](https://github.com/LUSKTECH/lusk.co/actions/workflows/ci.yml)
-[![Netlify Status](https://img.shields.io/badge/netlify-deploying-blue)](https://app.netlify.com/sites/lusk-co/deploys)
 [![License](https://img.shields.io/github/license/LUSKTECH/lusk.co)](LICENSE)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lusk.co&metric=alert_status)](https://sonarcloud.io/dashboard?id=lusk.co)
+![Node.js](https://img.shields.io/badge/node.js-v24-green?style=flat&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/react-v19-green?style=flat&logo=react&logoColor=white)
+
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=LUSKTECH_lusk.co&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=LUSKTECH_lusk.co)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=LUSKTECH_lusk.co&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=LUSKTECH_lusk.co)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LUSKTECH_lusk.co&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LUSKTECH_lusk.co)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=LUSKTECH_lusk.co&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=LUSKTECH_lusk.co)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=LUSKTECH_lusk.co&metric=coverage)](https://sonarcloud.io/summary/new_code?id=LUSKTECH_lusk.co)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=LUSKTECH_lusk.co&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=LUSKTECH_lusk.co)
 [![Snyk Vulnerabilities](https://snyk.io/test/github/LUSKTECH/lusk.co/badge.svg)](https://snyk.io/test/github/LUSKTECH/lusk.co)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/05dcac6f-47a2-4b40-b53d-9a75e9743ba0/deploy-status)](https://app.netlify.com/projects/luskco/deploys)
 
 **Lusk.co** is the personal portfolio and webserver for Cody Lusk, completely reimagined for 2025. It features a futuristic, reliable, and secure architecture built on the latest web technologies.
 
