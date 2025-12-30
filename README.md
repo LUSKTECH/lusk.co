@@ -79,3 +79,7 @@ The output will be generated in the `dist/` directory, ready for deployment.
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤖 AI Usage Disclaimer
+
+Portions of this codebase were generated with the assistance of Large Language Models (LLMs). All AI-generated code has been reviewed and tested to ensure quality and correctness.
