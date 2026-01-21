@@ -1,4 +1,4 @@
-# Lusk.co - Personal Webserver
+# Lusk.co - Lusk Technologies
 
 [![CI](https://github.com/LUSKTECH/lusk.co/actions/workflows/ci.yml/badge.svg)](https://github.com/LUSKTECH/lusk.co/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/LUSKTECH/lusk.co)](LICENSE)
@@ -14,7 +14,7 @@
 [![Snyk Vulnerabilities](https://snyk.io/test/github/LUSKTECH/lusk.co/badge.svg)](https://snyk.io/test/github/LUSKTECH/lusk.co)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/05dcac6f-47a2-4b40-b53d-9a75e9743ba0/deploy-status)](https://app.netlify.com/projects/luskco/deploys)
 
-**Lusk.co** is the personal portfolio and webserver for Cody Lusk, completely reimagined for 2025. It features a futuristic, reliable, and secure architecture built on the latest web technologies.
+**Lusk.co** is the official web portal for Lusk Technologies, Inc., featuring a futuristic, reliable, and secure architecture built on the latest web technologies. Reimagined for 2026.
 
 ## 🚀 Technology Stack
 
@@ -36,17 +36,20 @@
 ## 🛠️ Installation & Setup
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/LUSKTECH/lusk.co.git
    cd lusk.co
    ```
 
 2. **Install dependencies**:
+
    ```bash
    npm install
    ```
 
 3. **Run local development server**:
+
    ```bash
    npm run dev
    ```

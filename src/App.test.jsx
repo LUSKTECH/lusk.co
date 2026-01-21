@@ -5,7 +5,7 @@ import { describe, it, expect } from 'vitest'
 describe('App', () => {
     it('renders the main heading', () => {
         render(<App />)
-        const heading = screen.getAllByText(/CODY LUSK/i)[0]
+        const heading = screen.getAllByText(/LUSK TECH/i)[0]
         expect(heading).toBeInTheDocument()
     })
 

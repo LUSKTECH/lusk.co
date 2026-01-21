@@ -47,9 +47,9 @@ function App() {
           transition={{ duration: 1 }}
         >
           <h1 className="hero-title">
-            <span className="glitch" data-text="CODY LUSK">CODY LUSK</span>
+            <span className="glitch" data-text="LUSK TECH">LUSK TECH</span>
           </h1>
-          <p className="hero-subtitle">Personal Webserver // Full Stack Developer</p>
+          <p className="hero-subtitle">Advanced Agentic Solutions // Innovation at Scale</p>
           <motion.div
             className="hero-cta"
             whileHover={{ scale: 1.05 }}
@@ -99,10 +99,9 @@ function App() {
       </main>
 
       <footer id="contact" className="footer">
-        <p>&copy; {new Date().getFullYear()} Cody Lusk. All Systems Operational.</p>
+        <p>&copy; {new Date().getFullYear()} Lusk Technologies, Inc.</p>
         <div className="social-links">
-          <a href="/" aria-label="GitHub">GitHub</a>
-          <a href="/" aria-label="Twitter">Twitter</a>
+          <a href="https://github.com/LUSKTECH" aria-label="GitHub">GitHub</a>
         </div>
       </footer>
     </div>
