@@ -81,7 +81,7 @@ function App() {
           <div className="features-grid">
             {features.map((feature, index) => (
               <motion.div
-                key={index}
+                key={feature.title}
                 className="feature-card"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
