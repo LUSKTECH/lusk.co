@@ -9,6 +9,8 @@ on:
 jobs:
   snyk:
     runs-on: ubuntu-latest
+    # Only run if SNYK_TOKEN is configured
+    if: ${{ secrets.SNYK_TOKEN != '' }}
     permissions:
       contents: read
       security-events: write
@@ -35,5 +37,7 @@ jobs:
 
       - name: Upload result to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v4
+        if: always()
+        continue-on-error: true
         with:
           sarif_file: snyk.sarif
