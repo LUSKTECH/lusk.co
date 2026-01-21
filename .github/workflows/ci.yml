@@ -1,9 +1,11 @@
 name: CI
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
-      - master
       - main
   pull_request:
     types: [opened, synchronize, reopened]
@@ -49,6 +51,11 @@ jobs:
 
       - name: Run Tests with Coverage
         run: npm run test:coverage
+
+      - uses: qltysh/qlty-action/coverage@v2
+        with:
+          token: ${{ secrets.QLTY_COVERAGE_TOKEN }}
+          files: coverage/lcov.info
 
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v6
