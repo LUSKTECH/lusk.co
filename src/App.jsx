@@ -29,7 +29,7 @@ const features = [
 function App() {
   return (
     <div className="app-container">
-      <nav className="navbar" role="navigation" aria-label="Main Navigation">
+      <nav className="navbar" aria-label="Main Navigation">
         <div className="logo">LUSK.CO</div>
         <ul className="nav-links">
           <li><a href="#hero">Home</a></li>
