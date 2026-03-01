@@ -47,7 +47,7 @@ function App() {
           transition={{ duration: 1 }}
         >
           <h1 className="hero-title">
-            <span className="glitch" data-text="LUSK TECH">LUSK TECH</span>
+            <span className="glitch" data-text="LUSK TECHNOLOGIES">LUSK TECHNOLOGIES</span>
           </h1>
           <p className="hero-subtitle">Advanced Agentic Solutions // Innovation at Scale</p>
           <motion.div
@@ -99,7 +99,7 @@ function App() {
       </main>
 
       <footer id="contact" className="footer">
-        <p>&copy; {new Date().getFullYear()} Lusk Technologies, Inc.</p>
+         <a href="https://www.lusk.tech" aria-label="GitHub">Lusk Technologies Homepage<p>&copy; {new Date().getFullYear()} Lusk Technologies, Inc.</p></a>
         <div className="social-links">
           <a href="https://github.com/LUSKTECH" aria-label="GitHub">GitHub</a>
         </div>
