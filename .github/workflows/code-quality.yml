@@ -2,6 +2,8 @@ name: Code Quality
 
 permissions:
   contents: read
+  checks: write
+  pull-requests: read
 
 on:
   push:
