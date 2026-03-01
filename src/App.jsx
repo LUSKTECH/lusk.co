@@ -99,7 +99,7 @@ function App() {
       </main>
 
       <footer id="contact" className="footer">
-         <a href="https://www.lusk.tech" aria-label="GitHub">Lusk Technologies Homepage<p>&copy; {new Date().getFullYear()} Lusk Technologies, Inc.</p></a>
+         <a href="https://www.lusk.tech" aria-label="Lusk Technologies Homepage"><p>&copy; {new Date().getFullYear()} Lusk Technologies, Inc.</p></a>
         <div className="social-links">
           <a href="https://github.com/LUSKTECH" aria-label="GitHub">GitHub</a>
         </div>
