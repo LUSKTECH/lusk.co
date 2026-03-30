@@ -14,11 +14,17 @@ permissions:
 jobs:
   notify-pr:
     if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+      pull-requests: read
     uses: LUSKTECH/.github/.github/workflows/discord-pr.yml@main
     secrets:
       DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
 
   notify-failure:
+    permissions:
+      contents: read
+      actions: read
     if: >-
       github.event_name == 'workflow_run' &&
       github.event.workflow_run.conclusion == 'failure' &&
