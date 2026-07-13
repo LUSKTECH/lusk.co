@@ -47,7 +47,7 @@ jobs:
 
       - name: SonarQube Scan
         if: steps.check.outputs.skip != 'true'
-        uses: SonarSource/sonarqube-scan-action@v7
+        uses: SonarSource/sonarqube-scan-action@v8
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
@@ -84,7 +84,7 @@ jobs:
 
       - name: Upload to Codecov
         if: steps.check.outputs.skip != 'true'
-        uses: codecov/codecov-action@v6
+        uses: codecov/codecov-action@v7
         with:
           fail_ci_if_error: false
           token: ${{ secrets.CODECOV_TOKEN }}
