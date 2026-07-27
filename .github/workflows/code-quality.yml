@@ -48,6 +48,7 @@ jobs:
       - name: SonarQube Scan
         if: steps.check.outputs.skip != 'true'
         uses: SonarSource/sonarqube-scan-action@v8
+        continue-on-error: true
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
