@@ -16,7 +16,7 @@ permissions:
 jobs:
   codeql:
     name: CodeQL Analysis
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@v7
 
@@ -33,7 +33,7 @@ jobs:
 
   snyk:
     name: Snyk Security Scan
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     if: github.actor != 'dependabot[bot]'
     steps:
       - name: Check for Snyk token
@@ -67,7 +67,7 @@ jobs:
 
   npm-audit:
     name: NPM Audit
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@v7
 
