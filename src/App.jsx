@@ -26,6 +26,8 @@ const features = [
   },
 ];
 
+const CURRENT_YEAR = new Date().getFullYear();
+
 function App() {
   return (
     <div className="app-container">
@@ -99,7 +101,7 @@ function App() {
       </main>
 
       <footer id="contact" className="footer">
-         <a href="https://www.lusk.tech" aria-label="Lusk Technologies Homepage"><p>&copy; {new Date().getFullYear()} Lusk Technologies, Inc.</p></a>
+         <a href="https://www.lusk.tech" aria-label="Lusk Technologies Homepage"><p>&copy; {CURRENT_YEAR} Lusk Technologies, Inc.</p></a>
         <div className="social-links">
           <a href="https://github.com/LUSKTECH" aria-label="GitHub">GitHub</a>
         </div>
